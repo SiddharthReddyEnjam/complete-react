@@ -1,13 +1,116 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #eee;
+}
+
+.app {
+  background-color: #fff;
+  width: 60rem;
+  margin: 5rem auto;
+}
+
+.app-title {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.title {
+  color: #555;
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.main {
+  padding: 0 2rem;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+.items-info {
+  padding: 1rem;
+  background-color: #eee;
+  color: #777;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.navigation {
+  background-color: #f4fce8;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ddd;
+}
+
+.btn-search {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: none;
+  background-color: inherit;
+  margin-left: 1.5rem;
+  font-size: 2.2rem;
+}
+
+.plus:hover {
+  cursor: pointer;
+}
+
+.search {
+  color: #777;
+  transition: all 0.33s;
+}
+
+.search:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+.left-items {
+  border-left: 1px solid #ccc;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  color: #aaa;
+}
+
+.btn-status {
+  margin-right: 1.2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  color: #999;
+  padding: 4px 8px;
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  box-shadow: 0 0 1px #555 inset;
+  cursor: pointer;
 }
