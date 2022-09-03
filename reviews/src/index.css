@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(234, 247, 252);
+}
+
+.header {
+  text-align: center;
+  margin: 12rem 0 6rem 0;
+  font-size: 2rem;
+}
+
+.header-title {
+  border-bottom: 5px solid skyblue;
+  display: inline-block;
+}
+
+.main {
+  width: 60rem;
+  margin: auto;
+  background-color: #fff;
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem 4rem;
+  box-shadow: 0 0 5px #aaa;
+}
+
+.property {
+  position: relative;
+}
+
+.main-img {
+  text-align: center;
+}
+
+.empty-circle {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 100%;
+  background-color: skyblue;
+  display: inline-block;
+  position: absolute;
+  z-index: -1;
+  top: -5%;
+  left: 37%;
+}
+
+.profile {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 100%;
+  object-fit: cover;
+  z-index: 2;
+  display: inline-block;
+}
+
+.main-title {
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.role {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  color: rgb(83, 155, 184);
+}
+
+.description {
+  font-size: 1.5rem;
+  color: #888;
+  line-height: 150%;
+}
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #fff;
+  border: none;
+  color: skyblue;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  transition: all 0.33s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: rgb(0, 183, 255);
+}
+
+.surprise-btn {
+  width: 10rem;
+  height: 2.5rem;
+  display: inline-block;
+  border: none;
+  background-color: rgb(231, 249, 255);
+  color: rgb(0, 183, 255);
+  border-radius: 5px;
+  transition: all 0.33s;
+}
+
+.surprise-btn:hover {
+  cursor: pointer;
+  background-color: skyblue;
+  color: #000;
+}

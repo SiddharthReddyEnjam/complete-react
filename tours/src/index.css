@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background-color: #555;
+}
+
+.app {
+  color: #fff;
+  padding: 0 5rem;
+  margin: auto;
+  width: 100rem;
+}
+
+.Loading {
+  text-align: center;
+}
+
+.loading-text {
+  color: #fff;
+  font-size: 5rem;
+  margin: 10rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.header-title {
+  margin: 2rem 2rem 2rem 0;
+  font-size: 3rem;
+  border-bottom: 3px solid #fff;
+  display: inline-block;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.refresh-btn {
+  padding: 0.5rem 2rem;
+  background-color: green;
+  border: none;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 2rem;
+  box-shadow: 1px 1px 5px #000;
+  border-radius: 1rem;
+  transition: all 0.33s;
+}
+
+.refresh-btn:hover {
+  cursor: pointer;
+  background-color: rgba(0, 255, 55, 0.486);
+}
+
+.tours {
+  margin-bottom: 5rem;
+}
+
+.tour {
+  overflow: hidden;
+  background-color: #fff;
+  color: #000;
+  margin: 0 0 5rem 0;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px #000;
+}
+
+.title-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tour-name {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.tour-price {
+  margin-left: 10rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  background-color: rgb(2, 126, 2);
+  padding: 0.5rem 1rem;
+  color: #fff;
+}
+
+.tour-info {
+  font-size: 1.3rem;
+  color: #555;
+}
+
+.readmore {
+  color: blue;
+}
+
+.readmore:hover {
+  cursor: pointer;
+}
+
+.img {
+  text-align: center;
+}
+
+.content {
+  padding: 0 5rem;
+  margin-top: 2rem;
+}
+
+.tour-img {
+  width: 100%;
+  height: 45rem;
+  object-fit: cover;
+}
+
+.btns {
+  margin: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 5rem;
+  letter-spacing: 1.5px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #555;
+  transition: all 0.3s;
+}
+
+.item-btn {
+}
+
+.item-btn:hover {
+  cursor: pointer;
+  background-color: green;
+}
+
+.tour-btn {
+}
+
+.tour-btn:hover {
+  background-color: rgb(129, 13, 13);
+  cursor: pointer;
+}
+
+.wishlist {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  padding: 0.5rem 2rem;
+  background-color: #fff;
+  color: #000;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  border: none;
+  box-shadow: 1px 1px 5px #fff;
+  transition: all 0.33s;
+  border-radius: 2px;
+}
+
+.wishlist:hover {
+  cursor: pointer;
+  background-color: green;
+  color: #fff;
+}
