@@ -31,7 +31,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.main {
+.form {
   padding: 0 2rem;
 }
 
@@ -39,7 +39,6 @@ body {
   width: 100%;
   padding: 8px;
   border: 1px solid #ccc;
-  margin-bottom: 1rem;
 }
 
 .items-info {
@@ -47,7 +46,52 @@ body {
   background-color: #eee;
   color: #777;
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
+}
+
+.todo-list {
+  list-style: none;
+}
+
+.todo-items {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.check {
+  height: 1.6rem;
+  width: 1.6rem;
+  border: 1.5px solid #777;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.check:hover {
+  cursor: pointer;
+}
+
+.check-icon {
+  height: 1.6rem;
+  width: 1.6rem;
+  border: 1.5px solid rgb(0, 140, 255);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 140, 255);
+  color: #fff;
+}
+
+.strike {
+  text-decoration: line-through;
 }
 
 .navigation {

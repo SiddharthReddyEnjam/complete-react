@@ -1,13 +1,112 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f1f5f8;
+  overflow-x: hidden;
+}
+
+.app {
+  max-width: 75vw;
+  margin: 8rem auto;
+}
+
+.app-title {
+  text-align: center;
+}
+
+.title {
+  font-size: 4.2rem;
+  color: #333;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.underline {
+  width: 10rem;
+  height: 0.4rem;
+  background-color: #c59d5f;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+}
+
+.sections {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 5rem;
+}
+
+.menu-btn {
+  border: none;
+  background-color: inherit;
+  font-size: 1.7rem;
+  color: rgb(192, 131, 19);
+  padding: 7px 1.5rem;
+  transition: all 0.5s;
+  border-radius: 5px;
+}
+
+.menu-btn:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(192, 131, 19);
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem 3rem;
+}
+
+.main {
+  display: flex;
+  gap: 2rem;
+}
+
+.food-img {
+  width: 22rem;
+  height: 14rem;
+  border: 4px solid rgb(192, 131, 19);
+  border-radius: 5px;
+}
+
+.food-data {
+}
+
+.title-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding-bottom: 6px;
+  border-bottom: 1px dotted #aaa;
+}
+
+.food-title {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+}
+
+.food-price {
+  color: rgb(192, 131, 19);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.food-desc {
+  font-size: 1.6rem;
+  color: #777;
+  line-height: 1.2;
 }
