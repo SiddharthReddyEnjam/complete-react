@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+body {
+}
+
+.App {
+  background-color: #f1f5f8;
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  justify-content: space-between;
+  padding: 2rem 20rem;
+  background-color: #fff;
+  box-shadow: 0 5px 5px #aaa;
+}
+
+.nav-logo {
+}
+
+.cocktail-logo {
+}
+
+.cock-logo {
+  /* height: 3rem; */
+  width: 18rem;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 3rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #555;
+}
+
+.nav-link {
+  letter-spacing: 3px;
+}
+
+.nav-link:hover {
+  color: green;
+}
+
+/* SEARCH */
+.search {
+  padding: 3rem 4rem;
+  background-color: #fff;
+  width: 60rem;
+  margin: 10rem auto;
+  border-radius: 5px;
+  box-shadow: 1px 5px 5px #555;
+}
+
+.search p {
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+  color: rgb(16, 92, 16);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.search input {
+  width: 100%;
+  height: 4rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #f1f5f8;
+  margin-top: 2rem;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+/* CONTAINER */
+.cocktails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-cocktails {
+  margin: 0 0 10rem 0;
+}
+
+.cocktails-title {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+}
+
+.container {
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6rem 3rem;
+}
+
+.c-card {
+  box-shadow: 2px 2px 2px #999;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #fff;
+  width: 35rem;
+}
+
+.image {
+}
+
+.drink-img {
+  display: block;
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.drink-desc {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.drink-title {
+  font-size: 3rem;
+}
+
+.drink-glass {
+  font-size: 1.8rem;
+  letter-spacing: 5px;
+}
+
+.drink-type {
+  font-size: 1.5rem;
+  color: #888;
+  font-weight: 100;
+}
+
+.drink-btn {
+  padding: 0.8rem 2rem;
+  background-color: rgb(20, 74, 20);
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  letter-spacing: 2px;
+  transition: all 0.5s;
+}
+
+.drink-btn:hover {
+  cursor: pointer;
+  background-color: rgb(170, 221, 170);
+  color: #222;
+}
